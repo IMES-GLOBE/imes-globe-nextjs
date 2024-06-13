@@ -1,0 +1,20 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.label {
+    display: flex;
+    margin: 20px;
+    margin-left: 10vw;
+}
+
+
+@media (prefers-color-scheme: dark) {
+}

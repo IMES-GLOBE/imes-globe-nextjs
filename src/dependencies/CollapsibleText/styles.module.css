@@ -1,0 +1,70 @@
+.container {
+    padding: 10px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.toggleButton {
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Gill Sans MT';
+    color: rgb(103, 51, 30);
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    border-top: 2PX solid rgba(0,0,0,0.1);
+}
+
+.icon {
+    color: rgb(171, 171, 171);
+    opacity: 0.8;
+    font-weight: 900;
+    font-size: 25px;
+    width: 20px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+}
+
+.expandedIcon{
+    font-size: 35px;
+    top: -12px;
+}
+
+.collapsibleContainer {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+  
+  .expanded {
+    max-height: 500px; /* Set a value large enough to accommodate your content */
+  }
+  
+  .toggleButton {
+    cursor: pointer;
+  }
+  
+  .additionalText {
+    padding-left: 23px;
+    font-size: 18px;
+    font-family: 'Gill Sans';
+}
+
+  .additionalText ul {
+    list-style-type: none;
+    counter-reset: my-counter;
+    padding-top: 10px;
+    font-style: italic;
+  }
+
+  .additionalText li::before {
+    counter-increment: my-counter;
+    content: counter(my-counter) ". ";
+    font-weight: bold; /* Optional: Add styling for the number */
+    margin-right: 5px; /* Optional: Adjust spacing between number and text */
+  }
+
+
+@media (prefers-color-scheme: dark) {}

@@ -1,0 +1,338 @@
+.container {
+    width: 100vw;
+    /* height: 100vh; */
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container_G {
+    background: url(/assets/img/about/bible_5.png) center;
+    background-size: cover;
+}
+
+.containerBG {
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* color: rgb(109, 40, 71); */
+}
+
+.containerFG {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(17, 10, 54, 0.4), rgb(109, 40, 61));
+    /* background: linear-gradient(to top, rgba(17, 10, 54, 0.8), rgba(0,0,0,0), rgb(109, 40, 71)); */
+    /* z-index: 1; */
+}
+
+.whoWeAre {
+    font-size: 10vw;
+    font-family: Allura-Regular;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    color: white;
+}
+
+.aboutCard {
+    width: 85vw;
+    padding: 25px;
+    background-color: rgba(45, 45, 45, 0.617);
+    /* background-color: rgba(214, 212, 212, 0.617); */
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.254);
+}
+
+.aboutCard h3 {
+    font-family: Lumanosimo_Regular;
+    color: white;
+    text-align: center;
+}
+
+.aboutCard p {
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    width: 62vw;
+    text-align: justify;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 2 */
+
+
+
+.containerFG_2 {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+}
+
+.about_row {
+    width: 100vw;
+    padding: 5vw;
+    padding-bottom: 10px;
+}
+
+
+.about_col h3 {
+    margin-top: 2vw;
+    font-family: Lumanosimo_Regular;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.about_col h5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Lumanosimo_Regular;
+}
+
+.about_col p {
+    font-family: 'Gill Sans';
+    text-align: justify;
+    font-size: 17px;
+}
+
+.AC_moreInfo {
+    display: flex;
+}
+
+.AC_moreInfo_ {
+    background-color: rgb(165, 42, 93);
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.about_col_img {
+    min-height: 50vw;
+    overflow: hidden;
+}
+
+.AC_imgContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.AC_img1 {
+    width: 75%;
+    height: 25vw;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 2vw;
+    left: 7vw;
+}
+
+.AC_img1_ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AC_img2 {
+    width: 50%;
+    height: 25vw;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 22vw;
+    left: 2vw;
+}
+
+.AC_img2_ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Seaction 2 */
+
+.container_G_3 {
+    background: url(/assets/img/about/bible_4.png) center;
+    background-size: cover;
+}
+
+
+.containerFG_3 {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(109, 40, 61, 0.9), rgba(109, 40, 61, 0.9));
+    /* background: linear-gradient(to top, rgba(17, 10, 54, 0.8), rgba(0,0,0,0), rgb(109, 40, 71)); */
+    /* z-index: 1; */
+}
+
+
+.about2_col {
+    color: white;
+}
+
+.about2_col h3 {
+    margin-top: 2vw;
+    font-family: Lumanosimo_Regular;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.about2_col h5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Lumanosimo_Regular;
+}
+
+.about2_col p {
+    font-family: 'Gill Sans';
+    text-align: justify;
+    font-size: 17px;
+}
+
+.AC2_imgContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.AC2_img1 {
+    width: 75%;
+    height: 25vw;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 2vw;
+    right: 7vw;
+}
+
+.AC2_img1_ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AC2_img2 {
+    width: 55%;
+    height: 25vw;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 22vw;
+    right: 2vw;
+}
+
+.AC2_img2_ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AC2_img3 {
+    width: 50%;
+    height: 25vw;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 22vw;
+    left: 2vw;
+}
+
+.AC2_img3_ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+@media(max-width: 575.98px) {
+
+    .aboutCard {
+        width: 95vw;
+        padding: 15px;
+        background-color: rgba(45, 45, 45, 0.617);
+        /* background-color: rgba(214, 212, 212, 0.617); */
+        margin-bottom: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.254);
+    }
+
+    .aboutCard p {
+        font-family: 'Gill Sans';
+        font-size: 20px;
+        width: 100%;
+        text-align: justify;
+        color: white;
+    }
+}

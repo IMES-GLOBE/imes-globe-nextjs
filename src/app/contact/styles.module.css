@@ -1,0 +1,219 @@
+.AddressContainer {
+    width: 100vw;
+    /* height: 40vh; */
+    /* margin-top: 100px; */
+    object-fit: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.AddressContainer_ {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.AddressContainer_col {
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.AddressContainer h2 {
+    display: flex;
+    font-size: 50px;
+    font-family: Lumanosimo_Regular;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.AddressContainer h4 {
+    display: flex;
+    /* font-size: 50px; */
+    font-family: Lumanosimo_Regular;
+    /* margin-top: 30px; */
+    font-weight: bold;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.AddressContainer p {
+    font-size: 20px;
+    text-align: right;
+}
+
+.AddressContainer_smallInfo {
+    font-size: 13px !important;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.Carousel_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.Contact {
+    width: 100vw;
+    /* height: 40vh; */
+    margin-top: 100px;
+    object-fit: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.welcome_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* ContactForm */
+.ContactForm_ {
+    padding-left: 1.5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.ContactForm_ h3 {
+    font-family: Lumanosimo_Regular;
+}
+
+.ContactForm_ p {
+    font-family: 'Gill Sans';
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ContactForm_feild {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.ContactForm_feild label {
+    font-family: 'Gill Sans';
+    padding-bottom: 5px;
+}
+
+.ContactForm_feild input {
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.ContactForm_feild textarea {
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.ContactForm_ button {
+    background-color: #3B3950;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Gill Sans';
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/* Carousel */
+
+.Carousel {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.621);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Carousel_ {
+    display: flex;
+    /* background-color: blue; */
+    position: absolute;
+    height: 100%;
+    /* transition: 0.5s ease-in-out; */
+}
+
+.Carousel_Img {
+    width: 500px;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+
+
+@media (prefers-color-scheme: dark) {}
+
+
+
+
+@media(max-width: 767.98px) {
+    .AddressContainer_col {
+        align-items: center;
+    }
+    .AddressContainer h2 {
+        text-align: center;
+    }
+    
+    .AddressContainer h4 {
+        text-align: center;
+        justify-content: flex-start;
+    }
+    
+    .AddressContainer p {
+        text-align: center;
+    }
+    
+    .AddressContainer_smallInfo {
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 575.98px) {
+    .Carousel {
+        position: relative;
+        width: 90vw;
+        height: 60vh;
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.621);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transform: translateX(-4.5vw);
+    }
+    .Carousel_Img {
+        width: 90vw;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,127 @@
+.IntroBG_container {
+    width: 100vw;
+    height: 30vw;
+    object-fit:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.IntroBG {
+    width: 80vw;
+    height: 130%;
+    position: relative;
+    top: -10%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.IntroLayout {
+    width: 80vw;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(55, 5, 40, 0.497);
+    background: linear-gradient(to bottom, rgba(214, 219, 220,1), rgba(55, 5, 40, 0.497));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+}
+
+.IntroLayout h2 {
+    font-family: edo;
+    /* font-family: Allura-Regular; */
+    font-size: 80px;
+}
+
+.IntroLayout p {
+    font-family: Okana_Bold;
+    font-size: 25px;
+}
+
+
+
+.bankInfo {
+    width: 100vw;
+    height: max-content;
+    object-fit:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bankInfo_ {
+    width: 82vw;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.bankInfo_ h2 {
+    font-family: DancingScript_VariableFont_wght;
+    font-size: 50px;
+}
+
+.bankInfo_ p {
+    font-size: 22px;
+}
+
+.bankInfo_ a {
+    background-color: rgb(128, 28, 28);
+    color: white;
+    padding: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    /* font-size: 22px; */
+}
+
+.givingLink {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.accountsGiving {
+    font-size: 18px !important;
+}
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {.IntroLayout {
+    background: linear-gradient(to bottom, rgba(50, 50, 50,1), rgba(55, 5, 40, 0.497));
+}}
+
+
+
+@media(max-width: 575.98px) {
+    .IntroBG_container {
+        height: 100vw !important;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .IntroBG_container {
+        height: 100vw !important;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .IntroBG_container {
+        height: 70vw !important;
+    }}
+
+@media(max-width: 1199.98px) {
+    .IntroBG_container {
+        height: 50vw;
+    }}
+
+@media(max-width: 1399.98px) {}

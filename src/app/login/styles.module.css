@@ -1,0 +1,175 @@
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signIn {
+    width: 95vw;
+    /* height: 95vh; */
+    background-color: rgba(109, 40, 61, 0.522);
+    border-radius: 20px;
+    margin-bottom: 2vw;
+    overflow: hidden;
+}
+
+.row {
+    width: 95vw;
+    /* height: 95vh; */
+    margin-left: 0px;
+}
+
+
+.col_ {
+    min-height: 95vh;
+    padding: 2vw;
+}
+
+.col___ {
+    min-height: 45vh;
+    padding: 2vw;
+}
+
+.col__ {
+    /* height: 95vh; */
+    padding: 2vw;
+    padding-left: 0px;
+    padding-right: 5vw;
+}
+
+
+.col_img {
+    width: 100%;
+    height: 100%;
+    background: url(/assets/img/login/imac.png) center;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col_img h1 {
+    position: relative;
+    transform: translateY(0vw) translateX(-1vw);
+    font-family: Sketch;
+    font-size: 4vw;
+}
+
+.col_img h3 {
+    position: relative;
+    transform: translateY(-0vw) translateX(-3vw);
+    font-family: Allura-Regular;
+    font-size: 2vw;
+}
+
+.col_form {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ContactForm */
+.ContactForm_ {
+    padding-left: 1.5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.ContactForm_ h3 {
+    font-family: Lumanosimo_Regular;
+}
+
+.ContactForm_ p {
+    font-family: 'Gill Sans';
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ContactForm_feild {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.ContactForm_feild label {
+    font-family: 'Gill Sans';
+    padding-bottom: 5px;
+}
+
+.ContactForm_feild input {
+    padding: 4px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.667);
+}
+
+.ContactForm_feild textarea {
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.ContactForm_ button {
+    background-color: #3B3950;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Gill Sans';
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+}
+
+
+
+
+
+
+@media(max-width: 767.98px) {
+    .col_ {
+        min-height: 15vh;
+        padding: 2vw;
+    }
+    .col_form {
+        padding-top: 0px;
+        padding-left: 4vw;
+    }
+}
+
+@media(max-width: 575.98px) {
+}

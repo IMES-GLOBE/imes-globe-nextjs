@@ -1,0 +1,404 @@
+.container {
+    width: 100vw;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    height: auto;
+}
+
+
+.imageIntro {
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    position: relative;
+    background-color: aqua;
+}
+
+
+.miniScreen {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.233);
+    overflow: hidden;
+}
+
+.navTitleBar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navTitle {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: darkgray;
+    transition: 0.2s;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: currentColor;
+    font-size: 14px;
+}
+
+.navTitle:hover {
+    color: currentColor;
+    transform: scale(1.1);
+}
+
+.navTitle:not(:hover) {
+    color: currentColor;
+}
+
+.navTitleActive {
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+}
+
+.navTitleActive p {
+    color: white;
+}
+
+.screen {
+    position: relative;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.screenCard {
+    width: 100%;
+}
+
+.screenCard h1 {
+    font-family: 'Gill Sans';
+}
+
+.streamCard {
+    padding: 10px;
+}
+
+.streamCard_ {
+    background-color: rgba(239, 239, 239, 0.549);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.streamCard_:hover {
+    transform: scale(1.05);
+}
+
+.cardIMG {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.googleIcons {
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.115);
+}
+
+.transparentIcons {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.appleIcons_ {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.115);
+}
+
+.appleIcons {
+    transform: scale(2);
+    border-radius: 25px;
+}
+
+.description p {
+    margin-top: 5px;
+    font-family: 'Gill Sans';
+    color: currentColor;
+}
+
+
+
+.screenCard_notice {
+    width: 100%;
+    padding: 1vw;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenCard_notice_ {
+    width: 100%;
+    background: url(/assets/img/streaming/display/bible_3.png) center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.screenCard_notice_layout {
+    width: 100%;
+    padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 57, 57, 0.652);
+    border-radius: 20px;
+    color: white;
+}
+
+.screenCard_notice_ h5 {text-align: center;}
+.screenCard_notice_ p {text-align: center;}
+
+.screenCard_continue {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.screenCard_continue_sec {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.SCC_link {
+    padding: 30px;
+    background-color: rgb(166, 39, 77);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.youtubeRow .col-md-4{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+
+.youtube {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.youtubeImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ytb_btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    background-color: rgb(160, 40, 40);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.ytb_btn:hover{
+    transform: scale(1.04);
+}
+
+.ytb_btn p {
+    color: white;
+}
+
+.youtube_link {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: rgba(239, 239, 239, 0.549);
+    transition: 0.6s;
+    margin-bottom: 20px;
+}
+
+.youtube_link:hover{
+    transform: scale(1.05);
+}
+
+
+.youtube_linkImage {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.ytb_link_btn {
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.ytb_link_btn p {
+    color: currentColor;
+    font-family: 'Gill Sans';
+}
+
+.timeStamp {
+    position: absolute;
+    bottom: 5px;
+    right: 13px;
+    background-color: rgba(4, 2, 33, 0.644);
+    padding: 4px;
+}
+
+.timeStamp {
+    color: white;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fadeIn {
+    animation: fadeIn 500ms ease forwards;
+}
+
+.fadeOut {
+    animation: fadeOut 500ms ease forwards;
+    pointer-events: none;
+    /* Disable pointer events during fade-out */
+}
+
+
+
+@media (prefers-color-scheme: dark) {}
+
+@media(max-width: 575.98px) {
+    .container {
+        width: 100vw;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        padding: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        height: auto;
+    }
+
+    .streamCard_ {
+        flex-direction: row;
+    }
+    .screenCard_continue {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .SCC_link {
+        padding: 10px;
+        padding-left: 40%;
+        padding-right: 40%;
+        background-color: rgb(166, 39, 77);
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 767.98px) {}
+
+@media(max-width: 991.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 1399.98px) {}
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        display: none;
+        position: absolute;
+    }
+
+    0.5% {
+        position: relative;
+    }
+
+    100% {
+        opacity: 1;
+        display: initial;
+        position: relative;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        display: initial;
+        position: relative;
+    }
+
+    0.5% {
+        position: absolute;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+        position: absolute;
+    }
+}

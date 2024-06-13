@@ -1,0 +1,230 @@
+div#opton.col-md-6{
+  background-color:black;
+  border:1px solid rgb(0,0,255);
+}
+
+#top{
+  width:100%;
+  height:inherit;
+  background-color:rgba(255,255,255,0.31);
+  position:fixed;
+  top:0px;
+  border-bottom:1px solid rgba(0,0,0,0.09);
+}
+
+.adatop{
+}
+
+div#topbackground.row{
+  height:60px;
+}
+
+div#albumcover.col-md-6{
+  background-size:cover;
+  padding:21px;
+}
+
+div#albumimagecontainer{
+  background-color:rgba(0,0,0,0.45);
+  border-radius:30px;
+  padding:10px;
+}
+
+div#topbackground2.col-md-12{
+  height:inherit;
+  background-color:rgba(0,0,0,0.01);
+}
+
+.option{
+  font-size:187%;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+div#optioncontainer{
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  color:rgba(255,255,255,0.51);
+  border-radius:9px;
+}
+
+div#header.row{
+  background:url(../../assets/img/ada28.jpg);
+  background-size:cover;
+}
+
+div#optioncover.col-md-6{
+  padding-top:21px;
+}
+
+#delete{
+  position:relative;
+  left:6%;
+}
+
+#save{
+  position:relative;
+  left:16%;
+}
+
+#share{
+  position:relative;
+  left:30%;
+}
+
+#notification{
+  position:relative;
+  left:43%;
+}
+
+#settings{
+  position:relative;
+  left:54%;
+}
+
+a:focus, a:hover{
+  color:yellow;
+  transition-duration:0.1111s;
+  transition-timing-function:ease-out;
+}
+
+a{
+  color:#fcfafa;
+  text-decoration:none;
+}
+
+#bottom1{
+  width:20%;
+  text-align:center;
+  background-color:rgba(0,0,0,0.31);
+  color:white;
+  border-top:solid rgba(255,255,255,0.39) 2px;
+}
+
+div#bottom1.b1{
+  position:fixed;
+  bottom:0px;
+  left:0px;
+}
+
+div#bottom1.b2{
+  position:fixed;
+  bottom:0px;
+  left:20%;
+}
+
+div#bottom1.b3{
+  position:fixed;
+  bottom:0px;
+  left:40%;
+  border-top-right-radius:8px;
+  border-top-left-radius:8px;
+}
+
+div#bottom1.b4{
+  position:fixed;
+  bottom:0px;
+  left:60%;
+}
+
+div#bottom1.b5{
+  position:fixed;
+  bottom:0px;
+  left:80%;
+}
+
+#back{
+  border:2px solid white;
+}
+
+img.img-circle{
+  border:7px solid rgba(255,255,255,0.17);
+}
+
+.albumphotos{
+  border:7px solid rgba(0,0,0,0.06);
+}
+
+.albumphotos.container{
+  padding:33px;
+}
+
+div.col-md-6.albumphotos.container{
+  padding:46px;
+}
+
+#albumphotoscontainer{
+  text-align:center;
+  padding:9px;
+}
+
+body{
+  background-color:rgb(16,81,126);
+}
+
+div#spacer{
+  height:22px;
+  border:2px solid white;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: Allura-Regular;
+  src: url(/assets/fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sketch;
+  src: url(/assets/fonts/Sketch.ttf);
+}
+
+@font-face {
+  font-family: Admiration_Pains;
+  src: url(/assets/fonts/Admiration-Pains.ttf);
+}
+
+@font-face {
+  font-family: edo;
+  src: url(/assets/fonts/edo.ttf);
+}
+
+@font-face {
+  font-family: The_Bully;
+  src: url(/assets//fonts/The-Bully.ttf);
+}
+
+@font-face {
+  font-family: Silent_Asia;
+  src: url(/assets//fonts/Silent-Asia.otf);
+}
+
+@font-face {
+  font-family: Pacifico_Regular;
+  src: url(/assets//fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: DancingScript_VariableFont_wght;
+  src: url(/assets//fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Borel_Regular;
+  src: url(/assets//fonts/Borel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lugrasimo_Regular;
+  src: url(/assets//fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lumanosimo_Regular;
+  src: url(/assets//fonts/Lumanosimo-Regular.ttf);
+}

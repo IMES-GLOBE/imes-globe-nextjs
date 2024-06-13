@@ -4,15 +4,18 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 236, 238, 238;
+  /* --background-start-rgb: 214, 219, 220; */
   --background-end-rgb: 255, 255, 255;
+  --five-percent: 5%;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 50, 50, 50;
+    --background-end-rgb: 20, 20, 20;
   }
 }
 
@@ -21,7 +24,111 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--background-start-rgb))
     )
     rgb(var(--background-start-rgb));
+    overflow-x: hidden;
 }
+
+
+
+
+@font-face {
+  font-family: Allura-Regular;
+  src: url(/assets/fonts/Allura-Regular.ttf);
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: Travel;
+  src: url(/assets/fonts/Travel.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Okana_Bold;
+  src: url(/assets/fonts/Okana-Bold.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Okana_Black;
+  src: url(/assets/fonts/Okana-Black.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sketch;
+  src: url(/assets/fonts/Sketch.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Admiration_Pains;
+  src: url(/assets/fonts/Admiration-Pains.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: edo;
+  src: url(/assets/fonts/edo.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: The_Bully;
+  src: url(/assets/fonts/The-Bully.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Silent_Asia;
+  src: url(/assets/fonts/Silent-Asia.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Pacifico_Regular;
+  src: url(/assets/fonts/Pacifico-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: DancingScript_VariableFont_wght;
+  src: url(/assets/fonts/DancingScript-VariableFont_wght.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Borel_Regular;
+  src: url(/assets/fonts/Borel-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lugrasimo_Regular;
+  src: url(/assets/fonts/Lugrasimo-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lumanosimo_Regular;
+  src: url(/assets/fonts/Lumanosimo-Regular.ttf);
+  font-display: swap;
+}
+
+
+
+
+/* BOOSTRAP */
+
+@media(max-width: 575.98px) {}
+
+@media(max-width: 767.98px) {}
+
+@media(max-width: 991.98px) {}
+
+@media(max-width: 1199.98px) {}
+
+@media(max-width: 1399.98px) {}
